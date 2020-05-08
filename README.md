@@ -46,7 +46,7 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
 4. Clique em Review and Create, aguarde a validação então clique em Create e aguarde a criação da conta.
 
-5. Apos a conta ser criada, acesse ela, clique em Connection String e selecione a PRIMARY CONNECTION STRING desde mongodb:// até /?ssl=true e copie
+5. Apos a conta ser criada, acesse ela, clique em Connection String copie a PRIMARY CONNECTION STRING
 
 6. Entre na Cloud Shell
 
@@ -72,12 +72,12 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
     python app.py
     e aperte enter
 
-    Clique no botao WebPreview, clique em Configure
+    Feche o editor online, clique no botao WebPreview, clique em Configure
     Escreva: 5000
 
     Clique em Open and Browse
 
-    Veja se a pagina abre, caso positivo aperte CTRL+C para parar e  vamos fazer o Deploy em um Azure Web App usando a AZ Cli
+    Veja se a pagina abre, volte a cloud shell aperte CTRL+C para parar e  vamos fazer o Deploy em um Azure Web App usando a AZ Cli
 
  12. Na Cloud Shell use comando
 
