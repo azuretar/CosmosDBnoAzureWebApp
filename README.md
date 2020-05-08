@@ -54,13 +54,13 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
     git clone https://github.com/frdvo/CosmosDBnoAzureWebApp.git
 
-8. Instale os pacotes necessarios com comando
+8. Acesse a pasta e instale os pacotes necessarios com comando
 
+    cd CosmosDBnoAzureWebApp
     pip install -r requirements.txt
 
 9. Acesse a pasta e abra o editor online
 
-    cd CosmosDBnoAzureWebApp
     code .
 
 10. Abra o arquivo app.py e cole a PRIMARY CONNECTION STRING no local indicado e pressione CTRL+S para salvar
