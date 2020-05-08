@@ -22,7 +22,7 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
 2. Clique Add
 
-3. Selecione e complete dos dados:
+3. Selecione e complete dos dados
 
     Subscription: Selecione a subscription que usara para a conta Azure Cosmos DB, deve se chamar "Avaliação Gratuita" caso esteja usando Azure em Português
     
@@ -65,7 +65,7 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
 10. Abra o arquivo app.py e cole a PRIMARY CONNECTION STRING no local indicado e pressione CTRL+S para salvar
 
-11. Teste o codigo:
+11. Teste o codigo
 
     Na cloud shell digite
 
