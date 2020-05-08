@@ -7,7 +7,9 @@ app = Flask(__name__)
 title = "TODO sample application with Flask and MongoDB"
 heading = "TODO Reminder with Flask and MongoDB"
 
-client = MongoClient("mongodb://127.0.0.1:27017") #host uri
+client = MongoClient("Cole aqui a PRIMARY CONNECTION STRING") #PRIMARY CONNECTION STRING
+#IMPORTANTE: Soh vai funcionar se estiver colado ate /?ssl=true
+#Por exemplo: "mongodb://demo:fgdgdfgdfhfjyui@demo.mongo.cosmos.azure.com:10255/?ssl=true"
 db = client.mymongodb    #Select the database
 todos = db.todo #Select the collection name
 
