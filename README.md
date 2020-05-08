@@ -20,33 +20,33 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
 1. Na busca do portal.azure.com digite "cosmos" e clique em "Azure Cosmos DB"
 
-2. Clique Add
+2. Clique em +Adicionar
 
 3. Selecione e complete dos dados
 
-    Subscription: Selecione a subscription que usara para a conta Azure Cosmos DB, deve se chamar "Avaliação Gratuita" caso esteja usando Azure em Português
+    Assinatura: Selecione "Avaliação Gratuita"
     
-    Resource Group: Escolhe um Resource group ou crie um novo digitando o nome
+    Grupo de Recursos: Crie um novo Grupo de Recursos, lembre do nome pois usara depois
 
-    Account Name: Escolha um nome para a sua conta Cosmos DB
+    Nome da Conta: Escolha um nome para a sua conta Cosmos DB
 
-    API: Selecione Cosmos DB for Mongo DB API
+    API: Selecione API do Azure Cosmos DB para MongoDB
 
     Notebooks: Selecione Off
 
-    Apply Free Tier Discount: Selecione Apply, isso lhe permitira usufruir o CosmosDB gratis.
+    Apply Free Tier Discount: Selecione Apply, isso lhe permitira usufruir o CosmosDB grátis.
 
-    Location: Selecione a localizacao geografica mais proxima de seus usuarios - (South America) Brazil South
+    Localização: Selecione a localizacao geografica mais proxima de seus usuarios - (South America) Sul do Brasil
 
     Version: Selecione 3.6
 
-    Geo-Redundancy: Selecione Disable
+    Redundancia Geografica: Selecione Disable
 
-    Multi-region Writes: Selecione Disable
+    Gravações de Várias Regiões: Selecione Disable
 
-4. Clique em Review and Create, aguarde a validação então clique em Create e aguarde a criação da conta.
+4. Clique em Revisar e Criar, aguarde a validação então clique em Create e aguarde a criação da conta.
 
-5. Apos a conta ser criada, acesse ela, clique em Connection String copie a PRIMARY CONNECTION STRING
+5. Apos a conta ser criada, acesse ela, clique em Cadeia de Conexão (Connection String) copie a Cadeia de Conexão Primária (PRIMARY CONNECTION STRING)
 
 6. Entre na Cloud Shell
 
@@ -81,15 +81,15 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
  12. Na Cloud Shell use comando
 
-    az webapp up --sku F1 --name <Nome do seu Web App> --resource-group <Nome do resource group em que criou a sua conta CosmosDB>
+    az webapp up --sku F1 --name <Nome do seu Serviço de Aplicativos(WebApp)> --resource-group <Nome do grupo de recursos em que criou a sua conta CosmosDB>
 
-    Aguarde o deploy
+    Aguarde a implantação
 
-13. Na busca do Portal Azure digite App Services, clique em App Services
+13. Na busca do Portal Azure digite Serviços de Aplicativo, clique em Serviçõs de Aplicativos
 
 14. Voce vera seu WebApp listado, clique nele
 
 15. Clique na URL para ver o seu WebApp funcionando!
 
-16. Para apagar digite resources na busca do Portal Azure, e clique em Resource Groups, clique no Resource Group onde esta a conta do CosmosDB e o WebApp, clique em Delete resource group, escreva o nome do resource group e clique em delete.
+16. Para apagar digite grupo de recursos na busca do Portal Azure, e clique em Grupo de Recursos, clique no Grupo de Recursos onde esta a conta do CosmosDB e o WebApp, clique em Excluir, escreva o nome do Grupo de Recursos e clique em Excluir.
 
