@@ -52,7 +52,7 @@ Crie uma conta CosmosDB com API para MongoDB da Azure
 
 7. Clone o codigo do github com o comando
 
-    git clone https://github.com/frdvo/CosmosDBnoAzureWebApp.git
+    git clone https://github.com/azuretar/python-cosmosdb-azure-webapp-tutorial.git
 
 8. Acesse a pasta e instale os pacotes necessarios com comando
 
