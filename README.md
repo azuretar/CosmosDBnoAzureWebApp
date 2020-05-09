@@ -1,6 +1,7 @@
 ### Aplicação tipo To Do com Python Flask e CosmosDB usando API MongoDB para deploy em Azure WebApp
 
 Baseado no tutorial de SARATH LAL https://codewithsarath.com/a-simple-to-do-python-flask-application-with-mongodb/
+E da Azure https://docs.microsoft.com/pt-br/azure/cosmos-db/create-mongodb-flask
 
 ##### Requisitos
 
