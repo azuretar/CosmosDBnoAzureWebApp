@@ -7,7 +7,7 @@ app = Flask(__name__)
 title = "TODO sample application with Flask and MongoDB"
 heading = "TODO Reminder with Flask and MongoDB"
 
-client = MongoClient(r"Cole a PRIMARY CONNECTION STRING entre essas aspas") #PRIMARY CONNECTION STRING
+client = MongoClient(r"Paste the PRIMARY CONNECTION STRING here, between quotes") #PRIMARY CONNECTION STRING
 db = client.mymongodb    #Select the database
 todos = db.todo #Select the collection name
 
